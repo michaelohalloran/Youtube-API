@@ -1,0 +1,41 @@
+body {
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #f46744;
+}
+
+body:after {
+	content: url(https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/images/prev.png) url(https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/images/next.png) url(https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/images/close.png) url(https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/images/loading.gif) ; 
+	display: none;
+}
+
+h1 {
+	background-color: #565656;
+	font-size: 2em;
+	color: #e5dada;
+	font-family: Helvetica;
+}
+
+input, button {
+	font-size: 1.5em;
+	margin: 10px;
+	padding: 10px;
+}
+
+input:focus{
+	border: 2px solid #dadada;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+
+button {
+	background-color: #18276d;
+	margin: 1px solid black;
+	color: #e0e5f9;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: #e0e5f9;
+	color: #18276d;
+}
